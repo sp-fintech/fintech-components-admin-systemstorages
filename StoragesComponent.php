@@ -31,8 +31,6 @@ class StoragesComponent extends BaseComponent
      */
     public function addAction()
     {
-        $this->requestIsPost();
-
         if (isset($this->postData()['upload']) && $this->postData()['upload'] == true) {
             if ($this->request->hasFiles()) {
                 if ($this->storages->storeFile()) {
