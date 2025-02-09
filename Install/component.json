@@ -1,0 +1,37 @@
+{
+	"name" : "Storages",
+	"route" : "system/storages",
+	"description" : "<p>Access storages via this component</p>",
+	"module_type" : "components",
+	"app_type" : "fintech",
+	"category" : "admin",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-components-admin-systemstorages",
+	"class" : "Apps\\Fintech\\Components\\System\\Storages\\StoragesComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.7",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : [],
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		}
+	},
+	"menu" : "false",
+	"settings" : 
+	{
+		"mandatory" : true
+	},
+	"widgets" : []
+}
